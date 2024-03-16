@@ -3,7 +3,7 @@
 </p>
 
 ## 🖥️ Projeto
-Miniprojeto de uma "Calculadora Estatísica" de operações básicas, como Média Aritmética Simples, Média Aritmética Ponderada, Mediana e Moda.
+Miniprojeto de uma "Calculadora Estatística" de operações básicas, como Média Aritmética Simples, Média Aritmética Ponderada, Mediana e Moda.
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
