@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div id="titleContainer">
+        <h1>Statistics Calculator<h1>
+        <i class="fa-solid fa-chart-simple icon"></i>
+    </div>
+    <main>
+        <div id="firstContainer">
+            
+            <div id="numbersContainer">
+                <label for="number">Enter the numbers: </label>
+                <input type="number" id="number">
+                <button id="numbersBtn">Send</button>
+            </div>
+            <span id="numbers"></span>
+            <div id="weightsContainer">
+                <label for="weight">Enter the weights: <br></label>
+                <input type="number" id="weight" min="0" max="16">
+                <button id="weightsBtn">Send</button>
+                <button id="noWeightsBtn">No weights</button>
+            </div>
+            <span id="weights"></span>
+            
+            <div id="resultsBtn">
+                <button id="calculateBtn">Calculate</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+        </div>
+            
+        <div id="results">
+            <p>• Arithmetic Mean: </p>
+            <span id="simpleResult"></span>
+            
+            <p>• Weighted Arithmetic Mean: </p>
+            <span id="weightedResult"></span>
+            
+            <p>• Median: </p>
+            <span id="medianResult"></span>
+    
+            <p>• Mode: </p>
+            <span id="modeResult"></span>
+        </div>
+    </main> 
+
+    <!-- <footer>Feito com ❤️ por <a href="https://github.com/barroscamila">Camila Barros</a></footer> -->
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/8a00166ec8.js" crossorigin="anonymous"></script>
+</body>
+</html>
